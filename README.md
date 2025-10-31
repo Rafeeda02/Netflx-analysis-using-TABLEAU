@@ -1,86 +1,63 @@
-# 🏬 Superstore Sales Dashboard – Tableau Project
+# 🎬 Netflix Movies & TV Shows Dashboard
 
-## 📊 Project Overview
-This interactive **Tableau dashboard** provides key business insights from the *Sample Superstore* dataset.  
-It analyzes sales performance across regions, categories, time, and customer segments to help identify trends, profitability, and growth opportunities.
+## 📘 Project Description
+This Tableau dashboard provides a comprehensive analysis of **Netflix's Movies and TV Shows dataset**.  
+It explores how content is distributed across countries, genres, and ratings — as well as trends in content production over time.  
+The aim is to derive insights into Netflix’s global content strategy and audience preferences through powerful visual storytelling.
+
+---
+
+## 📊 Dashboard Insights
+
+### 🌍 Total Movies & TV Shows by Country
+An interactive world map visualizes how Netflix distributes its content globally, highlighting countries with the most available titles.
+
+### ⭐ Ratings Distribution
+A bar chart shows the number of Movies and TV Shows by content rating (TV-MA, TV-14, PG, etc.), providing insight into audience maturity categories.
+
+### 🍿 Movies & TV Shows Distribution
+A bubble chart compares the count of **Movies vs TV Shows**, indicating that Movies dominate Netflix’s content library.
+
+### 🎭 Top 10 Genres
+A horizontal bar chart displays the most popular genres — such as Drama, Documentaries, and Comedy — based on title count.
+
+### 📅 Total Movies & TV Shows by Year
+A line chart visualizes the growth of Netflix’s content over time, showing significant expansion after 2015.
+
+---
+
+## 🧩 Tools Used
+- **Tableau Public** → For building the interactive dashboard  
+- **Dataset** → Netflix Movies and TV Shows Dataset (from Kaggle)  
+
+---
+
+## 🚀 Key Findings
+- **TV-MA** is the most common rating category on Netflix.  
+- **Movies** make up approximately **62%** of total content.  
+- **Drama and Documentaries** are the most frequent genres.  
+- Content availability has grown rapidly since **2015**.  
+- **United States and India** lead in the number of titles produced.
+
+---
+
+## 📂 Dataset Information
+- **Dataset Name:** Netflix Movies and TV Shows  
+- **Source:** [Kaggle – Netflix Titles Dataset](https://www.kaggle.com/shivamb/netflix-shows)  
+- **Main Columns:** Title, Type, Country, Rating, Genre, Release Year, Duration, Date Added  
+
+---
+
+## 👩‍💻 Author
+**Rafeeda P P**  
+📍 Data Analyst | Passionate about Data Visualization & Storytelling using Tableau, SQL, Python, and Excel.  
+📫 *Open to collaboration and data analytics opportunities in the UAE.*
 
 ---
 
 ## 🖼️ Dashboard Preview
-![Superstore Sales Dashboard](tableaudashboard.png)
+Include your Tableau dashboard screenshot here 👇  
 
-*(The above image is a preview of the interactive Tableau dashboard. You can explore the full version on Tableau Public or by downloading the .twbx file.)*
-
----
-
-## 🎯 Objectives
-- Visualize **overall business performance** using KPIs (Sales, Profit, Quantity, Orders).  
-- Understand **sales trends over time** (monthly and yearly).  
-- Analyze **category-wise and region-wise performance**.  
-- Identify **profitable and loss-making segments**.  
-- Provide a clean, interactive dashboard suitable for **executive-level reporting**.
-
----
-
-## 🧠 Key Insights
-- **Sales and Profit** show consistent growth over time, with noticeable peaks during the **holiday season**.  
-- **Technology category** generates the **highest profit margins**.  
-- **Office Supplies** category shows **high sales volume** but relatively **low profit**.  
-- **Western Region** contributes the **highest revenue**, while **South Region** lags slightly behind.  
-- **Discount-heavy sales** tend to reduce overall profitability.  
-
----
-
-## 📈 Dashboard Features
-- **KPI summary section** at the top (Total Sales, Profit, Orders, Quantity).  
-- **Monthly Sales Trend** line chart showing seasonal patterns.  
-- **Category-wise Sales and Profit** bar chart.  
-- **Regional Sales Map** with drill-down interactivity.  
-- **Customer Segment comparison** pie or bar chart.  
-- **Interactive filters** for Region, Category, and Ship Mode.  
-
----
-
-## 🧰 Tools & Technologies
-| Tool | Purpose |
-|------|----------|
-| **Tableau Desktop** | Data visualization and dashboard creation |
-| **Microsoft Excel / CSV** | Data source |
-| **GitHub** | Project documentation and sharing |
-
----
-
-## 📂 Dataset
-- **Name:** Sample – Superstore  
-- **Source:** Tableau Public Dataset  
-- **Rows:** ~9,000  
-- **Columns:** 21  
-- Includes fields like *Order Date, Sales, Profit, Quantity, Category, Region, and Customer Segment.*
-
----
-
-## 🚀 How to View the Dashboard
-1. Download the `.twbx` file or open the live version on [Tableau Public](https://public.tableau.com/).  
-2. Explore filters and hover for insights.  
-3. All KPIs and charts are dynamically linked.
-
----
-
-## 📜 Key Metrics Displayed
-| Metric | Description |
-|---------|--------------|
-| 💰 **Total Sales** | Total revenue generated |
-| 📈 **Total Profit** | Net profit after discounts |
-| 📦 **Total Orders** | Unique count of customer orders |
-| 🧾 **Total Quantity** | Total items sold |
-
----
-
-## 🌟 Results
-This dashboard provides a clear overview of **business performance**, enabling decision-makers to:
-- Spot trends  
-- Focus on profitable areas  
-- Reduce losses in underperforming segments
 
 ---
 
