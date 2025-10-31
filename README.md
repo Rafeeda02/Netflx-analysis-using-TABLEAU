@@ -57,7 +57,7 @@ A line chart visualizes the growth of Netflix’s content over time, showing sig
 
 ## 🖼️ Dashboard Preview
 Include your Tableau dashboard screenshot here 👇  
-[(netflixdashboard.png)]
+![Netflix analysis dashboard](netflixanalysisdashboard.png)
 
 ---
 
